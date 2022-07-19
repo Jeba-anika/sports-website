@@ -72,6 +72,8 @@ main {
     display: flex;
     margin-top: 130px;
     gap: 24px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .navigation {
@@ -84,7 +86,8 @@ main {
     background-color: #161616;
     border-radius: 10px;
 }
-.button{
+
+.button {
     text-decoration: none;
     background-color: #FFFFFF;
     color: #161616;
@@ -93,9 +96,10 @@ main {
     margin-top: 30px;
     width: 150px;
     text-align: center;
-    
+
 }
-.button-highlight{
+
+.button-highlight {
     text-decoration: none;
     background-color: #DD0000;
     padding: 17px 39px;
@@ -116,4 +120,82 @@ main {
 .match-blog {
     display: flex;
     flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 312px;
+}
+
+.transfer-button {
+    text-decoration: none;
+    border: 1px solid #161616;
+    color: #161616;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.blog-detail {
+    margin: 15px 20px;
+}
+
+.duration-comment {
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* -----------------footer styles-------------- */
+footer {
+    background-color: #161616;
+    margin-top: 130px;
+}
+
+.footer-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-part p {
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.footer-part hr {
+    width: 1320px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 50px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9;
+}
+
+.social-media{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.social-media a{
+    color: #B9B9B9;
 }
