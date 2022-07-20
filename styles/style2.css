@@ -12,7 +12,6 @@ main {
     align-items: center;
 
 }
-
 @keyframes sliding {
     0%{
         background-color: #d12222aa;
@@ -71,8 +70,6 @@ main {
     color: #FFFFFF;
     padding: 17px 25px;
     border-radius: 5px;
-    
-    
 }
 
 .top-banner a:hover{
@@ -108,6 +105,7 @@ main {
     height: 312px;
     background-color: #161616;
     border-radius: 10px;
+    padding-bottom: 30px;
 }
 
 .button {
@@ -131,7 +129,7 @@ main {
     width: 150px;
     text-align: center;
     color: #FFFFFF;
-    margin-bottom: 30px;
+
 }
 
 
@@ -142,37 +140,41 @@ main {
 }
 
 
-.match-blog {
+.schedule {
     display: flex;
+    align-items: center;
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    width: 312px;
+    padding: 53px 30px;
 }
 
-.transfer-button {
-    text-decoration: none;
-    border: 1px solid #161616;
-    color: #161616;
-    width: 100px;
-    border-radius: 5px;
-    margin-top: 20px;
-    margin-left: 20px;
-    text-align: center;
-    font-weight: 500;
-    font-size: 16px;
-}
 
-.blog-detail {
-    margin: 15px 20px;
-}
-
-.duration-comment {
+.flags {
     display: flex;
-    gap: 30px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    gap: 22px;
+}
+
+.flags p {
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.country {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+
+.timing {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D4D4D;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .view-more {
@@ -313,7 +315,7 @@ footer {
         margin-bottom: 0px;
     }
 
-    .match-blog {
+    .schedule {
         width: 357px;
     }
 
@@ -417,25 +419,28 @@ footer {
 
     }
 
-    .match-blog {
+    .schedule {
         width: 335px;
     }
 
     /* -----------footer styles--------- */
-    footer{
+    footer {
         margin-top: 24px;
     }
-    .footer-part p{
+
+    .footer-part p {
         margin-top: 24px;
         margin-bottom: 24px;
     }
-    .footer-part hr{
+
+    .footer-part hr {
         width: 335px;
         margin-bottom: 24px;
     }
-    .footer-nav{
+
+    .footer-nav {
         flex-direction: column;
         align-items: center;
     }
- 
+
 }
