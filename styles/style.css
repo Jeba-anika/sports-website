@@ -191,11 +191,90 @@ footer {
     color: #B9B9B9;
 }
 
-.social-media{
+.social-media {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
 }
-.social-media a{
+
+.social-media a {
     color: #B9B9B9;
+}
+
+/* -----------------Tablet view styles-------------- */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    /* --------------top banner style ------------- */
+    .top-banner {
+        width: 734px;
+        height: 398px;
+        gap: 0px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .top-banner-info {
+        padding-left: 76px;
+    }
+
+    .top-banner-heading {
+        font-size: 40px;
+        margin-top: 0px;
+    }
+
+    .top-banner-details {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-top: 0px;
+        width: 316px;
+        height: 48px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+
+    .top-banner a {
+        padding: 12px 12px;
+    }
+
+    .top-banner-img {
+        padding-right: 17px;
+    }
+
+    .top-banner-img img {
+        width: 323px;
+        height: 340px;
+    }
+
+    /* -------------match news blog style----------- */
+    .container{
+        flex-direction: column;
+    }
+    .navigation{
+        flex-direction: row;
+        width: 100%;
+        background-color: #FFFFFF;
+        height: 100px;
+        gap: 22px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
+
+    .button{
+        border: 1px solid #E8E8E8;
+    }
+    .button-highlight{
+        margin-bottom: 0px;
+    }
+
+    .match-blog{
+        width: 357px;
+    }
+
 }
